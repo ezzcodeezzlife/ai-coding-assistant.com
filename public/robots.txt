@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ai-coding-assistant.com
+
+# Sitemaps
+Sitemap: https://ai-coding-assistant.com/sitemap.xml
+Sitemap: https://ai-coding-assistant.com/server-sitemap.xml

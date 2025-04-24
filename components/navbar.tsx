@@ -62,7 +62,9 @@ export default function Navbar() {
             <Link href="#testimonials" className="text-gray-700 hover:text-teal-600 transition-colors">
               Testimonials
             </Link>
-            <Button className="bg-teal-600 hover:bg-teal-700">Get Started</Button>
+            <Button className="bg-teal-600 hover:bg-teal-700" asChild>
+              <a href="https://assistant.ai-coding-assistant.com">Get Started</a>
+            </Button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -112,7 +114,9 @@ export default function Navbar() {
               >
                 Testimonials
               </Link>
-              <Button className="bg-teal-600 hover:bg-teal-700 w-full">Get Started</Button>
+              <Button className="bg-teal-600 hover:bg-teal-700 w-full" asChild>
+                <a href="https://assistant.ai-coding-assistant.com">Get Started</a>
+              </Button>
             </nav>
           </div>
         </div>

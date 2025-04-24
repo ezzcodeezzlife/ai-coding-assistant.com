@@ -16,13 +16,17 @@ export default function HeroSection() {
               hassle.
             </h2>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-teal-600 hover:bg-teal-700">
-                <Rocket className="mr-2 h-5 w-5" />
-                Start Building with AI Now
+              <Button size="lg" className="bg-teal-600 hover:bg-teal-700" asChild>
+                <a href="https://assistant.ai-coding-assistant.com">
+                  <Rocket className="mr-2 h-5 w-5" />
+                  Start Building with AI Now
+                </a>
               </Button>
-              <Button size="lg" variant="outline" className="border-teal-600 text-teal-600 hover:bg-teal-50">
-                <BookOpen className="mr-2 h-5 w-5" />
-                Learn How It Works
+              <Button size="lg" variant="outline" className="border-teal-600 text-teal-600 hover:bg-teal-50" asChild>
+                <a href="#how-it-works">
+                  <BookOpen className="mr-2 h-5 w-5" />
+                  Learn How It Works
+                </a>
               </Button>
             </div>
           </div>
@@ -30,7 +34,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100">
                 <img
-                  src="https://images.unsplash.com/photo-1607798748738-b15c40d33d57?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                   alt="AI code assistant in the browser helping build full-stack web apps with AI models like OpenAI and HuggingFace."
                   className="w-full h-auto"
                 />

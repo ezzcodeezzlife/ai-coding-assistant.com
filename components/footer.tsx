@@ -1,4 +1,4 @@
-import { Github } from "lucide-react"
+import Link from "next/link"
 
 export default function Footer() {
   return (
@@ -14,16 +14,12 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
-            <a href="#" className="hover:text-white transition-colors">
-              <Github className="inline-block mr-2 h-5 w-5" />
-              GitHub
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Terms
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Privacy
-            </a>
+            <Link href="/legal" className="hover:text-white transition-colors">
+              Terms of Service
+            </Link>
+            <Link href="/legal#privacy" className="hover:text-white transition-colors">
+              Privacy Policy
+            </Link>
           </div>
         </div>
 
